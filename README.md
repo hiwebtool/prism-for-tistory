@@ -24,17 +24,26 @@ body 마지막에 안붙여넣으면 오류가 발생할수 있습니다.
 기본 js코드 뒤로 넣어주세요
  ``` html
 <head>
- 
-  ...
- 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.css">
+
+	...
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.css">
 </head>
 <body>
 
-...
+	...
 
-  <script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-sql.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-cmake.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-csharp.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-django.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-git.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-http.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-json.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-pascal.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-perl.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-sql.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-vbnet.js"></script>
 </body>
 ```
 #
