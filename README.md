@@ -1,9 +1,18 @@
 # Prism-for-tistory
 티스토리에 코드블럭이 쉽게 적용될수있도록 변경한 Prism
  ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.css">
+<head>
+ 
+  ...
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.css">
+</head>
+<body>
 
-<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.js"></script>
+...
+
+  <script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.js"></script>
+</body>
 ```
 이 두 코드만 붙여넣으면 완료
 
@@ -11,5 +20,17 @@
 
 ### 예시
  ``` html
-<script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-sql.js"></script>
+<head>
+ 
+  ...
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.css">
+</head>
+<body>
+
+...
+
+  <script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hiwebtool/prism-for-tistory/prism-sql.js"></script>
+</body>
 ```
